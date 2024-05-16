@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="homeassignment.Day81231">
+        <methods>
+          <include name="setup"/>
+          <include name="IEtest"/>
+          <include name="reportconfig"/>
+          <include name="firefoxtest"/>
+          <include name="reportflush"/>
+          <include name="edgetest"/>
+        </methods>
+      </class> <!-- homeassignment.Day81231 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
